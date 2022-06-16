@@ -1,0 +1,74 @@
+.App{
+    width: 100vw;
+    height: 90vh;
+    background: #24C6DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    
+}
+
+h2{
+    font-size: 30px;
+}
+
+.flex{
+
+    display: flex;
+    justify-content: center;
+}
+
+.same{
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5em;
+    margin: 3em;
+    width: 20em;
+    height: 2em;
+    padding: 2em;
+    background: #085078;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.toglle{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.externalCss{
+    background: #ED4264;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.first{
+    background-color: rgb(100, 218, 218);
+    width: 28em;
+    height: 15em;
+    border-radius: 2em;
+    margin: 20px;
+    border: 2px solid ;
+    
+}
+
+@media screen and (max-width: 650px) {
+
+    .flex{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .same{
+       margin: 20px;
+       margin-left: 50px;
+    }
+}
+
+@media screen and (max-width : 535px){
+    .same{
+        margin: 20px;
+    }
+}
+
